@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+/*全局*/
+body{
+	font-family:Helvetica,Arial,"Microsoft YaHei","微软雅黑",STXihei,"华文细黑",SimSun,"宋体",sans-serif;
+	font-size:62.5%;
+}
+
+a:link,a:visited,a:hover,a:active{
+
+}
+
+.w_wrap{
+	width: 100%;
+    /*padding:0 5%;*/
+    margin: 0 auto;
+}
+
+.w{
+	width: 90%;
+    padding:0 5%;
+    margin: 0 auto;
+}
+
+
+
+/*
+
+	全局
+	
+	  	  主色
+	 	  辅色 
+    	高亮色
+    	阴影色
+    	点睛色
+    	背景色
+
+	  字体颜色 
+
+	主标题颜色 
+	副标题颜色 
+	  正文颜色 
+	
+	  过渡颜色
+
+	主标题大小 
+	副标题大小 
+	  正文大小 14px
+
+	主标题行高 
+	副标题行高 
+	  正文行高 
+
+		  边距
+		内填充
+
+
+*/

@@ -1,0 +1,155 @@
+@charset "utf-8";
+
+.visible_phone{
+	display: none;
+}
+.visible_tablet{
+	display: none;
+}
+.visible_desktop{
+	display: block;
+}
+
+
+.hidden_phone{
+	display: block;
+}
+.hidden_tablet{
+	display: block;
+}
+.hidden_desktop{
+	display: none;
+}
+
+
+@media (max-width: 767px) {
+  .visible_phone {
+    display: block;
+  }
+  .hidden_phone {
+    display: none;
+  }
+  
+  .visible_desktop {
+    display: none;
+  }
+  .hidden_desktop {
+    display: block;
+  }
+}
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+  .visible_tablet {
+    display: block;
+  }
+  .hidden_tablet {
+    display: none;
+  }
+
+  .visible_desktop {
+    display: none;
+  }
+  .hidden_desktop {
+    display: block;
+  }
+}
+
+/* 水平状态的手机 iphone */
+@media (max-width: 320px) {
+
+}
+
+
+/* 水平状态的手机 android */
+@media (max-width: 360px) {
+  .index{
+    min-height: 420px;
+  }
+  .nav_index{
+    width: 320px;
+    height:153px;
+  }
+}
+
+
+/* 水平状态的手机及以下 iphone竖直 */
+@media (max-width: 480px) {
+  .index{
+    min-height: 480px;
+  }
+}
+
+/* 界于水平手机与竖直平板之间 */
+@media (max-width: 767px) {
+
+}
+
+/* 界于竖直平板与水平平板/桌面之间 */
+@media (min-width: 768px) and (max-width: 1024px) {
+
+}
+
+
+/* 宽桌面 */
+@media (max-width: 1280px) {
+
+  
+}
+
+
+/* 宽桌面 */
+@media (max-width: 1400px) {
+  
+  
+}
+
+/* 宽桌面 */
+@media (min-width: 1400px) {
+  
+  
+}
+
+
+
+/* Retina */
+
+/* Retina 1.5 */
+@media screen and (-webkit-min-device-pixel-ratio : 1.5) {
+  
+}
+
+/* Retina 2 */
+@media screen and (-webkit-min-device-pixel-ratio : 2) {
+    
+}
+
+/* Retina 3 */
+@media screen and (-webkit-min-device-pixel-ratio : 3) {
+  
+}
+
+
+
+
+
+/* 界于竖直平板与水平平板/桌面之间 */
+/*@media (min-width: 768px) and (max-width: 979px) {
+  
+}*/
+
+
+/*@media (max-width: 979px) {
+  
+}
+
+
+@media (min-width: 980px) {
+  
+}*/
+
+/* 宽桌面 */
+/*@media (min-width: 1200px) {
+  
+  
+}*/
