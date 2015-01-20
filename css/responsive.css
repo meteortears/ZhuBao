@@ -55,40 +55,101 @@
   }
 }
 
+
+
+
+
+
+
 /* 水平状态的手机 iphone */
 @media (max-width: 320px) {
 
 }
 
-
 /* 水平状态的手机 android */
 @media (max-width: 360px) {
+
+}
+/* 横屏状态的手机 android */
+@media (max-width: 480px){
+
+}
+
+
+/* 横屏状态手机 android */
+@media (max-width: 640px) {
   .index{
-    min-height: 420px;
-  }
-  .nav_index{
-    width: 320px;
-    height:153px;
+    /*min-height: 580px;*/
   }
 }
 
 
-/* 水平状态的手机及以下 iphone竖直 */
-@media (max-width: 480px) {
-  .index{
-    min-height: 480px;
-  }
-}
 
 /* 界于水平手机与竖直平板之间 */
 @media (max-width: 767px) {
 
 }
 
+
+
+
+/* 水平状态的手机 iphone */
+@media all and (max-width: 320px) {
+  .index{
+    min-height: 420px;
+  }
+  .nav_index{
+    bottom: 0;
+  }
+  .index .logo{
+    top: 4%;
+  }
+
+}
+
+/* 水平状态的手机 android */
+@media (min-width: 321px) and (max-width: 360px) {
+  .index{
+    min-height: 420px;
+  }
+  .nav_index{
+    width: 320px;
+    height:153px;
+    bottom: 4%;
+  }
+  .index .logo{
+    top: 4%;
+  }
+}
+
+
+
+/* 水平状态的手机及以下 iphone竖直 */
+@media (min-width: 361px) and (max-width: 480px){
+  .index{
+    min-height: 480px;
+  }
+
+}
+
+/* 横屏状态手机 android */
+@media (min-width: 481px) and (max-width: 640px) {
+  .index{
+    min-height: 580px;
+  }
+}
+
+@media (min-width: 640px) and (max-width: 767px){
+
+}
+
+
+
 /* 界于竖直平板与水平平板/桌面之间 */
 @media (min-width: 768px) and (max-width: 1024px) {
 
 }
+
 
 
 /* 宽桌面 */

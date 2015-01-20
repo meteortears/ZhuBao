@@ -7,7 +7,7 @@ body{
 }
 
 a:link,a:visited,a:hover,a:active{
-
+	text-decoration: none;
 }
 
 .w_wrap{
@@ -29,7 +29,7 @@ a:link,a:visited,a:hover,a:active{
 	全局
 	
 	  	  主色
-	 	  辅色 
+	 	  辅色 b184d1
     	高亮色
     	阴影色
     	点睛色
