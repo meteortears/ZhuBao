@@ -11,6 +11,7 @@
 	margin: 0 auto;
 	width: 280px;
 	height: 320px;
+	display: block;
 }
 .nav_index{
 	position: absolute;
@@ -26,7 +27,6 @@
 	background:url(../images/bg_nav_index@1x.png) no-repeat center 0;
 	background-size:100%;
 }
-
 
 .nav_index .link{
 	position: absolute;
@@ -79,20 +79,14 @@
 .nav_index .link1{
 	left: 28px;
 	top: 42px;
-	/*opacity: 0.2;*/
-	/*filter: alpha(opacity=20);*/
 }
 
 .nav_index .link2{
 	left: 125px;
 	top: -14px;
-	/*opacity: 0.2;*/
-	/*filter: alpha(opacity=20);*/
 }
 
 .nav_index .link3{
 	left: 220px;
 	top: 42px;
-	/*opacity: 0.2;*/
-	/*filter: alpha(opacity=20);*/
 }
