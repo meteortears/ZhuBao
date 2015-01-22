@@ -4,11 +4,18 @@
 body{
 	font-family:Helvetica,Arial,"Microsoft YaHei","微软雅黑",STXihei,"华文细黑",SimSun,"宋体",sans-serif;
 	font-size:62.5%;
+	color: #a1a1a1;
 }
 
 a:link,a:visited,a:hover,a:active{
 	text-decoration: none;
+	color: #fff;
 }
+a:hover{
+	/*color: #fff;*/
+}
+
+
 
 .w_wrap{
 	width: 100%;
@@ -23,7 +30,282 @@ a:link,a:visited,a:hover,a:active{
 }
 
 
+
+
+
+/* herad */
+.header{
+
+}
+
+
+
+/* 页脚 */
+.footer{
+	border-top: 1px solid #8f8f8f;
+}
+
+/* 版权 */
+.copy{
+
+}
+.copy p{
+	font-size: 1.4em;
+	line-height: 1.8em;
+	text-align: center;
+	padding: 0 10%;
+}
+.copy .phone{
+	display: block;
+	font-size: 2em;
+	line-height: 2em;
+	color: #e89d32;
+	text-align: center;
+}
+
+
+/* 导航 */
+.nav{
+	background: #7355ab;
+}
+.nav .ul{
+	/*overflow: hidden;*/
+}
+.nav .ul .list{
+	position: relative;
+	height: 58px;
+	width: 33.3333333333%;
+	display:block;
+	text-align: center;
+	float: left;
+}
+.nav .ul .list .link,
+.nav .ul .list .nav_sub .sub_link{
+	display: block;
+	height: 58px;
+	line-height: 58px;
+	color: #fff;
+	font-size: 1.6em;
+	background: #7355ab;
+}
+.nav .ul .list .link .title{
+
+}
+.nav .ul .list .link .icon{
+	display: inline-block;
+	padding: 0 2px;
+}
+
+.nav .ul .list .nav_sub{
+	position: absolute;
+	width: 100%;
+	display: none;
+	z-index: 4;
+}
+.nav .ul .list .nav_sub .sub_link{
+	/*width: 100%;*/
+}
+
+
+.nav .ul .list:hover{
+	
+}
+.nav .ul .list:hover .link{
+	background: #694da7;
+}
+.nav .ul .list:hover .link .icon{
+	-webkit-transform:rotate(180deg);
+	-moz-transform:rotate(180deg);
+	-ms-transform:rotate(180deg);
+	-o-transform:rotate(180deg);
+	transform:rotate(180deg);
+}
+.nav .ul .list:hover .nav_sub,
+.nav .ul .list:active .nav_sub{
+	display: block;
+}
+
+.nav .ul .list .nav_sub .sub_link:hover{
+	background: #694da7;
+}
+
+
+
+
+/* 导航 底部 */
+.nav_bottom{
+	overflow: hidden;
+}
+.nav_bottom .link{
+	display: block;
+	float: left;
+	width: 33.3333333333%;
+	text-align: center;
+	font-size: 1.6em;
+	line-height: 60px;
+	color: #a1a1a1;
+}
+
+.nav_bottom .link .icon{
+	display: inline-block;
+	+display: inline;
+	+zoom: 1; 
+	padding: 0 2px 0 0;
+}
+
+.nav_bottom .link:hover{
+	color: #7355ab;
+}
+
+
+
+
+
+
+
+
+
+
 /* 通用模块 */
+
+/* 广告 */
+.mod_ad{
+}
+.mod_ad .img{
+	/*width: 100%;*/
+	max-width: 100%;
+	min-width: 100%;
+}
+
+
+
+/* 产品列表模块 */
+.mod_product{
+	overflow: hidden;
+}
+.mod_product .list{
+	width: 41%;
+	margin: 0 0 30px 6%;
+	float: left;
+}
+.mod_product .list .link{
+	display: block;
+	color: #7355ab;
+	position: relative;
+}
+
+.mod_product .list .link:nth-child(2n+1){
+	margin: 0;
+}
+
+.mod_product .list .link .img{
+	display: block;
+	max-width: 100%;
+	min-width: 100%;
+}
+.mod_product .list .link .sub_title{
+	font-size: 1.4em;
+	line-height: 1.4em;
+	text-align: center;
+}
+.mod_product .list .link .price{
+	color: #000;
+	text-align: center;
+	font-size: 1.6em;
+	line-height: 2em;
+	height: 20px;
+	/*padding: 10px 0;*/
+}
+
+.mod_product .list .link .sign{
+	
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: block;
+	background: #7355ab;
+	background: rgba(115,85,171,.8);
+	color: #fff;
+	padding: 8%;
+	font-size: 1.4em;
+	line-height: 200%;
+	text-align: center;
+}
+.mod_product .list .link .none{
+	display: none;
+}
+
+.mod_product .list:hover .link{
+	color: #694da7;
+}
+.mod_product .list:hover .link .sign{
+	background: rgba(115,85,171,.9);
+}
+
+/* 产品详细 */
+.mod_product_detail{
+
+}
+
+.mod_product_detail .info{
+	
+}
+
+.mod_product_detail .info .img_warp{
+	
+}
+.mod_product_detail .info .img_warp .img{
+	
+}
+
+.mod_product_detail .info .txt_wrap{
+	
+}
+.mod_product_detail .info .txt_wrap .title{
+	
+}
+.mod_product_detail .info .txt_wrap .txt{
+	
+}
+.mod_product_detail .info .txt_wrap .txt .txt_title{
+	
+}
+
+.mod_product_detail .info .txt_wrap .price{
+	
+}
+.mod_product_detail .info .txt_wrap .original_price{
+	
+}
+.mod_product_detail .info .txt_wrap .integral{
+	
+}
+.mod_product_detail .info .txt_wrap .freight{
+	
+}
+
+
+.mod_product_detail .info .txt_wrap .btn_wrap{
+	
+}
+
+
+
+.mod_product_detail .detail{
+	
+}
+.mod_product_detail .detail .sub_title{
+	
+}
+.mod_product_detail .detail .parameter{
+	
+}
+.mod_product_detail .detail .parameter .list{
+	
+}
+.mod_product_detail .detail .parameter .list .txt_title{
+	
+}
 
 
 
@@ -32,7 +314,17 @@ a:link,a:visited,a:hover,a:active{
 
 
 /* css3动画 */
-
+.nav .ul .list,
+.nav .ul .list .link .icon,
+.nav .ul .list .nav_sub .sub_link,
+.nav_bottom .link,
+.mod_product .list .link .sign{
+	-webkit-transition:all .4s ease-out;
+	-moz-transition:all .4s ease-out;
+	-ms-transition:all .4s ease-out;
+	-o-transition:all .4s ease-out;
+	transition:all .4s ease-out;
+}
 
 
 
@@ -42,18 +334,22 @@ a:link,a:visited,a:hover,a:active{
 
 	全局
 	
-	  	  主色
-	 	  辅色 b184d1
-    	高亮色
-    	阴影色
-    	点睛色
-    	背景色
+	  	  主色 7355ab
+	 	  辅色 
+    	高亮色 b184d1
+    	阴影色 694da7
+    	点睛色 e89d32
+    	背景色 fff
+
+    	  灰色 a1a1a1
+    	深灰色 8f8f8f
+    	浅灰色 cccccc
 
 	  字体颜色 
 
-	主标题颜色 
+	主标题颜色 7355ab
 	副标题颜色 
-	  正文颜色 
+	  正文颜色 a1a1a1
 	
 	  过渡颜色
 
