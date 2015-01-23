@@ -61,6 +61,7 @@ a:hover{
 	line-height: 2em;
 	color: #e89d32;
 	text-align: center;
+	padding: 0 0 30px 0;
 }
 
 
@@ -248,34 +249,58 @@ a:hover{
 }
 
 .mod_product_detail .info{
-	
+	padding: 20px 0;
+	overflow: hidden;
 }
 
 .mod_product_detail .info .img_warp{
-	
+	float: left;
+	width: 38.2%;
 }
 .mod_product_detail .info .img_warp .img{
-	
+	display: block;
+	max-width: 100%;
+	width: 100%;
+	overflow: hidden;
 }
 
 .mod_product_detail .info .txt_wrap{
-	
+	position: relative;
+	float: right;
+	width: 56%;
+	padding: 0 4% 0 1.8%;
 }
 .mod_product_detail .info .txt_wrap .title{
-	
+	padding: 0 0 20px 0;
+	font-size: 2em;
+	line-height: 1em;
+	color: #7355ab;
 }
 .mod_product_detail .info .txt_wrap .txt{
-	
+	position: relative;
+	font-size: 1.6em;
+	line-height: 1.8em;
+	padding: 1% 0 1% 80px;
 }
 .mod_product_detail .info .txt_wrap .txt .txt_title{
-	
+	position: absolute;
+	display: block;
+	left: 0;
+	text-align: right;
+	width: 60px;
 }
 
 .mod_product_detail .info .txt_wrap .price{
-	
+	color: #971012;
+	font-size: 2.4em;
+	line-height: 1.4em;
+}
+.mod_product_detail .info .txt_wrap .price .txt_title{
+	color: #a1a1a1;
+	font-size: 0.65em;
 }
 .mod_product_detail .info .txt_wrap .original_price{
-	
+	text-decoration: line-through;
 }
 .mod_product_detail .info .txt_wrap .integral{
 	
@@ -285,31 +310,140 @@ a:hover{
 }
 
 
-.mod_product_detail .info .txt_wrap .btn_wrap{
-	
+.mod_product_detail .info .btn_wrap{
+	/*padding: 0 20px;*/
+	width: 100%;
+	clear: both;
+	/*margin: 40px auto;*/
+	padding: 40px 0;
+	overflow: hidden;
 }
-
+.mod_product_detail .info .btn_wrap .mod_btn{
+	width: 45%;
+	margin: 0 2%;
+	/*display: inline-block;*/
+	float: left;
+	padding: 14px 0;
+}
 
 
 .mod_product_detail .detail{
 	
 }
 .mod_product_detail .detail .sub_title{
+	/*background: url(../images/default_img.png) repeat-x 0 -72px;*/
+
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b184d1), color-stop(1, #7355ab));
+	background:-moz-linear-gradient(top, #b184d1 5%, #7355ab 100%);
+	background:-webkit-linear-gradient(top, #b184d1 5%, #7355ab 100%);
+	background:-o-linear-gradient(top, #b184d1 5%, #7355ab 100%);
+	background:-ms-linear-gradient(top, #b184d1 5%, #7355ab 100%);
+	background:linear-gradient(to bottom, #b184d1 5%, #7355ab 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b184d1', endColorstr='#7355ab',GradientType=0);
+	
+	height: 40px;
+	padding: 0 20px;
+	line-height: 40px;
+	color: #fff;
+	font-size: 1.6em;
+}
+.mod_product_detail .detail .list_wrap{
 	
 }
-.mod_product_detail .detail .parameter{
-	
-}
-.mod_product_detail .detail .parameter .list{
-	
-}
-.mod_product_detail .detail .parameter .list .txt_title{
-	
+.mod_product_detail .detail .list_wrap .list_title,
+.mod_product_detail .detail .list_wrap .parameter{
+	padding: 10px 20px;
 }
 
+.mod_product_detail .detail .list_wrap .list_title{
+	font-size: 1.8em;
+	color: #7355ab;
+	padding: 20px 20px;
+	background: #f7f7f7;
+	border-top:1px solid #a1a1a1;
+	border-bottom:1px solid #a1a1a1;
+}
+.mod_product_detail .detail .list_wrap .parameter{
+	margin: 0 0 10px 0;
+}
+.mod_product_detail .detail .list_wrap .parameter .list{
+	font-size: 1.6em;
+	position: relative;
+	padding: 0 0 0 120px;
+	line-height: 1.8em;
+}
+.mod_product_detail .detail .list_wrap .parameter .list .txt_title{
+	position: absolute;
+	width: 110px;
+	text-align: right;
+	left: 0px;
+}
+
+
+/* 筛选列表 */
+.mod_screen_condition{
+
+}
 
 
 /* web组件 */
+.mod_btn{
+	-moz-box-shadow:inset 0px 1px 0px 0px #dab8f2;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #dab8f2;
+	box-shadow:inset 0px 1px 0px 0px #dab8f2;
+
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b184d1), color-stop(1, #7355ab));
+	background:-moz-linear-gradient(top, #b184d1 5%, #7355ab 100%);
+	background:-webkit-linear-gradient(top, #b184d1 5%, #7355ab 100%);
+	background:-o-linear-gradient(top, #b184d1 5%, #7355ab 100%);
+	background:-ms-linear-gradient(top, #b184d1 5%, #7355ab 100%);
+	background:linear-gradient(to bottom, #b184d1 5%, #7355ab 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b184d1', endColorstr='#7355ab',GradientType=0);
+	
+	background-color:#b184d1;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	-ms-border-radius:3px;
+	border-radius:3px;
+	border:1px solid #7355ab;
+	
+	padding:10px 24px;
+	display:inline-block;
+	+display:inline;
+	+zoom: 1;
+	cursor:pointer;
+	
+	color:#ffffff;
+	font-size:1.6em;
+	line-height: 1em;
+	text-align: center;
+
+	/*text-shadow:0px 1px 0px #7355ab;*/
+	text-shadow:1px 1px 1px #000;
+}
+.mod_btn:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7355ab), color-stop(1, #b184d1));
+	background:-moz-linear-gradient(top, #7355ab 5%, #b184d1 100%);
+	background:-webkit-linear-gradient(top, #7355ab 5%, #b184d1 100%);
+	background:-o-linear-gradient(top, #7355ab 5%, #b184d1 100%);
+	background:-ms-linear-gradient(top, #7355ab 5%, #b184d1 100%);
+	background:linear-gradient(to bottom, #7355ab 5%, #b184d1 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7355ab', endColorstr='#b184d1',GradientType=0);
+	background-color:#7355ab;
+}
+.mod_btn:active {
+	position:relative;
+	top:1px;
+
+	/*background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7355ab), color-stop(1, #b184d1));
+	background:-moz-linear-gradient(top, #7355ab 5%, #b184d1 100%);
+	background:-webkit-linear-gradient(top, #7355ab 5%, #b184d1 100%);
+	background:-o-linear-gradient(top, #7355ab 5%, #b184d1 100%);
+	background:-ms-linear-gradient(top, #7355ab 5%, #b184d1 100%);
+	background:linear-gradient(to bottom, #7355ab 5%, #b184d1 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7355ab', endColorstr='#b184d1',GradientType=0);
+	background-color:#7355ab;*/
+}
 
 
 
@@ -318,7 +452,8 @@ a:hover{
 .nav .ul .list .link .icon,
 .nav .ul .list .nav_sub .sub_link,
 .nav_bottom .link,
-.mod_product .list .link .sign{
+.mod_product .list .link .sign,
+.mod_btn{
 	-webkit-transition:all .4s ease-out;
 	-moz-transition:all .4s ease-out;
 	-ms-transition:all .4s ease-out;
@@ -338,7 +473,7 @@ a:hover{
 	 	  辅色 
     	高亮色 b184d1
     	阴影色 694da7
-    	点睛色 e89d32
+    	点睛色 e89d32 971012
     	背景色 fff
 
     	  灰色 a1a1a1
