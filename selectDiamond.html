@@ -95,7 +95,8 @@
         
         <!-- content [[ -->
         <div class="content">
-
+            
+             <!-- 进度 [[ -->
              <ul class="mod_schedule">
                  <li class="schedule_list current">
                      <span class="txt">1.挑选钻石</span>
@@ -107,115 +108,126 @@
                      <span class="txt">3.完成定制</span>
                  </li>
              </ul>
+            <!-- 进度 ]] -->
              
-<!--
-             
-                              <li class="schedule_list current done">
-                     <span class="txt">1.挑选钻石</span>
-                 </li>
-                 <li class="schedule_list current">
-                     <span class="txt">2.挑选款式</span>
-                 </li>
--->
-             <form action="">
+
+             <form action="selectLists.html">
                  
              
-             <ul class="mod_screen_condition">
-                 <li class="screen_condition_list">
-                     <span class="title">形状</span>
-                     <select class="condition" id="">
-                        <option>请选择</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
-                 </li>
-                 <li class="screen_condition_list">
-                     <span class="title">重量</span>
-                     <select class="condition" id="">
-                        <option>请选择</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
-                 </li>
-                 <li class="screen_condition_list">
-                     <span class="title">净度</span>
-                     <select class="condition" id="">
-                        <option>请选择</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
-                 </li>
-                 <li class="screen_condition_list">
-                     <span class="title">颜色</span>
-                     <select class="condition" id="">
-                        <option>请选择</option>
-                        <option>黑</option>
-                        <option>金</option>
-                        <option>白</option>
-                        <option>红</option>
-                      </select>
-                 </li>
-                 <li class="screen_condition_list">
-                     <span class="title">价格</span>
-                     <select class="condition" id="">
-                        <option>请选择</option>
-                        <option>100</option>
-                        <option>200</option>
-                        <option>300</option>
-                        <option>400</option>
-                      </select>
-                 </li>
-                 <li class="screen_condition_list">
-                     <span class="title">切割</span>
-                     <select class="condition" id="">
-                        <option>请选择</option>
-                        <option>1/2</option>
-                        <option>1/3</option>
-                        <option>1/4</option>
-                        <option>1/5</option>
-                      </select>
-                 </li>
-                 <li class="screen_condition_list">
-                     <span class="title">抛光</span>
-                     <select class="condition" id="">
-                        <option>请选择</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
-                 </li>
-                 <li class="screen_condition_list">
-                     <span class="title">对称</span>
-                     <select class="condition" id="">
-                        <option>请选择</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
-                 </li>
-                 <li class="screen_condition_list">
-                     <span class="title">用途</span>
-                     <select class="condition" id="">
-                        <option>请选择</option>
-                        <option>2</option>
-                        <option>3</option>
-                        <option>4</option>
-                        <option>5</option>
-                      </select>
-                 </li>
-             </ul>
+                 <ul class="mod_screen_condition">
+                     <li class="screen_condition_list">
+                         <span class="title">形状</span>
+                         <select class="condition" id="">
+                            <option>请选择</option>
+                            <option value="">圆形</option>
+                            <option value="" >公主方形</option>
+                            <option value="" >榄尖形</option>
+                            <option value="" >椭圆形</option>
+                            <option value="" >水滴形</option>
+                            <option value="" >心形</option>
+                          </select>
+                     </li>
+                     <li class="screen_condition_list">
+                         <span class="title">重量</span>
+                         <select class="condition" id="">
+                            <option>请选择</option>
+                            <option value="" >30分以下</option>
+                            <option value="" >30-39分</option>
+                            <option value="" >40-49分</option>
+                            <option value="" >50-59分</option>
+                            <option value="" >60-69分</option>
+                            <option value="" >70-79分</option>
+                            <option value="" >80-89分</option>
+                            <option value="" >90-99分</option>
+                            <option value="" >1克拉-1.99克拉</option>
+                            <option value="" >2克拉-2.99克拉</option>
+                            <option value="" >3克拉以上</option>
+                          </select>
+                     </li>
+                     <li class="screen_condition_list">
+                         <span class="title">净度</span>
+                         <select class="condition" id="">
+                            <option>请选择</option>
+                            <option value="" >完美无瑕FL</option>
+                            <option value="" >内部无瑕IF</option>
+                            <option value="" >极轻微内含物VVS1</option>
+                            <option value="" >极轻微内含物VVS2</option>
+                            <option value="" >轻微内含物VS1</option>
+                            <option value="" >轻微内含物VS2</option>
+                            <option value="" >微内含物SI1</option>
+                            <option value="" >微内含物SI2</option>
+                          </select>
+                     </li>
+                     <li class="screen_condition_list">
+                         <span class="title">颜色</span>
+                         <select class="condition" id="">
+                            <option>请选择</option>
+                            <option value="" >D</option>
+                            <option value="" >E</option>
+                            <option value="" >F</option>
+                            <option value="" >G</option>
+                            <option value="" >H</option>
+                            <option value="" >I</option>
+                            <option value="" >J</option>
+                            <option value="" >K</option>
+                          </select>
+                     </li>
+                     <li class="screen_condition_list">
+                         <span class="title">价格</span>
+                         <select class="condition" id="">
+                            <option>请选择</option>
+                            <option value="" >3000元以下</option>
+                            <option value="" >3000-5999元</option>
+                            <option value="" >6000元-9999元</option>
+                            <option value="" >15000元-19999元</option>
+                            <option value="" >20000元-29999元</option>
+                            <option value="" >60000元-74999元</option>
+                            <option value="" >80000元-99999元</option>
+                            <option value="" >10,000,000元以上</option>
+                          </select>
+                     </li>
+                     <li class="screen_condition_list">
+                         <span class="title">切割</span>
+                         <select class="condition" id="">
+                            <option>请选择</option>
+                            <option value="" >完美EX</option>
+                            <option value="" >很好VG</option>
+                            <option value="" >好G</option>
+                          </select>
+                     </li>
+                     <li class="screen_condition_list">
+                         <span class="title">抛光</span>
+                         <select class="condition" id="">
+                            <option>请选择</option>
+                            <option value="" >完美EX</option>
+                            <option value="" >很好VG</option>
+                            <option value="" >好G</option>
+                          </select>
+                     </li>
+                     <li class="screen_condition_list">
+                         <span class="title">对称</span>
+                         <select class="condition" id="">
+                            <option>请选择</option>
+                            <option value="" >完美EX</option>
+                            <option value="" >很好VG</option>
+                            <option value="" >好G</option>
+                          </select>
+                     </li>
+                     <li class="screen_condition_list">
+                         <span class="title">用途</span>
+                         <select class="condition" id="">
+                            <option>请选择</option>
+                            <option value="" >订婚结婚</option>
+                            <option value="" >投资收藏</option>
+                            <option value="" >日常佩戴</option>
+                            <option value="" >个性特色</option>
+                          </select>
+                     </li>
+                 </ul>
              
-             <div class="tc btn618">
-                 <input type="submit" class="mod_btn" value="查询">
-             </div>
+                 <div class="tc btn618">
+                     <input type="submit" class="mod_btn" value="查询">
+                 </div>
              
              </form>
 

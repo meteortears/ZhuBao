@@ -109,6 +109,62 @@ a:hover{
 .mod_product2 .list:hover .img_warp .img{ transform:scale(1.04); -webkit-transform:scale(1.04); -ms-transform:scale(1.04); -moz-transform:scale(1.04); }
 
 
+/* 产品列表 挑选列表 */
+.mod_product_selectlists{ }
+.mod_product_selectlists .list{ padding:20px 0; border-bottom:1px solid #cccccc; }
+.mod_product_selectlists .list .link{ display: block; color: #a1a1a1; overflow: hidden; }
+.mod_product_selectlists .list .img_warp{ float: left; width: 38.2%; }
+.mod_product_selectlists .list .img_warp .img{ display: block; max-width: 100%; width: 100%; overflow: hidden; }
+.mod_product_selectlists .list .txt_wrap{ position: relative; float: right; width: 56%; padding: 0 4% 0 1.8%; }
+.mod_product_selectlists .list .txt_wrap .title{ color: #7355ab; font-size: 2em; }
+
+.mod_product_selectlists .list .txt_wrap .txt{
+	font-size: 1.6em;
+	line-height: 1.8em;
+}
+.mod_product_selectlists .list .txt_wrap .txt .txt_title{
+	/*margin: 0 0 0 4px;*/
+	font-size: 1.6em;
+	padding: 0 10px 0 0;
+}
+
+.mod_product_selectlists .list .txt_wrap .price{
+	font-size: 2em;
+	color: #971012;
+}
+.mod_product_selectlists .list .txt_wrap .price .txt_title{
+	font-size: 0.8em;
+	color: #a1a1a1;
+	/*padding: 0 10px 0 0;*/
+}
+.mod_product_selectlists .list .txt_wrap .original_price{
+
+	font-size: 1em;
+	text-decoration: line-through;
+	/*font-size: 1em;*/
+}
+.mod_product_selectlists .list .txt_wrap .original_price .txt_title{
+	display: inline-block;
+	font-size: 1em;
+
+
+}
+
+.mod_product_selectlists .list .txt_wrap .parameter{
+	font-size: 1.4em;
+	line-height: 1.8em;
+	margin: 8px 0;
+}
+.mod_product_selectlists .list .txt_wrap .parameter .p_list{
+	
+	/*width: 48%;*/
+	/*display: inline-block;*/
+}
+
+
+
+.mod_product_selectlists .list:hover .img_warp .img{ transform:scale(1.04); -webkit-transform:scale(1.04); -ms-transform:scale(1.04); -moz-transform:scale(1.04); }
+
 
 /* 产品详细 */
 .mod_product_detail{ }
@@ -154,11 +210,11 @@ a:hover{
 	-ms-border-radius: 3px;
 	-o-border-radius: 3px;
 	border-radius: 3px;
-
 	color: #a1a1a1;
 	margin: 10px;
 	padding: 10px;
 	overflow: hidden;
+	display: block;
 }
 .mod_screen_condition2 .title{
 	font-size: 1.8em;
@@ -171,49 +227,37 @@ a:hover{
 	float: right;
 }
 
-
 .mod_screen_condition2 .condition{
 	display: block;
 	height: 0px;
-
 	margin: 0 0 0 2em;
 	padding: 0px 0 0 0;
 	font-size: 1.6em;
-	/*color: red;*/
-	/*background-color: red;*/
 }
 .mod_screen_condition2 .condition .link{
-	
 	display: inline-block;
 	width: 32%;
 	padding: 10px 0;
 	color: #a1a1a1;
-	/*text-align: center;*/
 }
-.mod_screen_condition2{
 
-}
-.mod_screen_condition2{
-
-}
 
 .mod_screen_condition2:hover,
 .mod_screen_condition2:active{
 	border: 1px solid #7355ab;
 	outline: none;
 }
-
 .mod_screen_condition2:hover .title{
 	color: #7355ab;
 }
-.mod_screen_condition2:hover .title .icon{
+.mod_screen_condition2:hover .title .icon,
+.mod_screen_condition2:active .title .icon{
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
 	transform: rotate(180deg);
 }
-
-/*.mod_screen_condition2:active{
-	border: 1px solid #7355ab;
-	outline: none;
-}*/
 .mod_screen_condition2:hover .condition,
 .mod_screen_condition2:active .condition{
 	/*height: 100%;*/
@@ -271,10 +315,46 @@ a:hover{
 .btn618 .mod_btn{ width: 61.8%; }
 
 
+
+
+/* 登陆 */
+.mod_login_signin{
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* web组件 */
+
+/* 按钮 */
 .mod_btn{ -moz-box-shadow:inset 0px 1px 0px 0px #dab8f2; -webkit-box-shadow:inset 0px 1px 0px 0px #dab8f2; box-shadow:inset 0px 1px 0px 0px #dab8f2; background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b184d1), color-stop(1, #7355ab)); background:-moz-linear-gradient(top, #b184d1 5%, #7355ab 100%); background:-webkit-linear-gradient(top, #b184d1 5%, #7355ab 100%); background:-o-linear-gradient(top, #b184d1 5%, #7355ab 100%); background:-ms-linear-gradient(top, #b184d1 5%, #7355ab 100%); background:linear-gradient(to bottom, #b184d1 5%, #7355ab 100%); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b184d1', endColorstr='#7355ab',GradientType=0); background-color:#b184d1; -moz-border-radius:3px; -webkit-border-radius:3px; -ms-border-radius:3px; border-radius:3px; border:1px solid #7355ab; padding:10px 24px; display:inline-block; +display:inline; +zoom: 1; cursor:pointer; color:#ffffff; font-size:1.6em; line-height: 1em; text-align: center; text-shadow:1px 1px 1px #000; }
 .mod_btn:hover { background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #7355ab), color-stop(1, #b184d1)); background:-moz-linear-gradient(top, #7355ab 5%, #b184d1 100%); background:-webkit-linear-gradient(top, #7355ab 5%, #b184d1 100%); background:-o-linear-gradient(top, #7355ab 5%, #b184d1 100%); background:-ms-linear-gradient(top, #7355ab 5%, #b184d1 100%); background:linear-gradient(to bottom, #7355ab 5%, #b184d1 100%); filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#7355ab', endColorstr='#b184d1',GradientType=0); background-color:#7355ab; }
-.mod_btn:active { position:relative; top:1px; }
+.mod_btn:active{ position:relative; top:1px; }
+
+/*.mod_btn:active{
+	-moz-box-shadow:inset 0px 1px 0px 0px #dab8f2;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #dab8f2;
+	box-shadow:inset 0px 1px 0px 0px #dab8f2;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b184d1), color-stop(1, #7355ab));
+	background:-moz-linear-gradient(top, #b184d1 5%, #7355ab 100%);
+	background:-webkit-linear-gradient(top, #b184d1 5%, #7355ab 100%);
+	background:-o-linear-gradient(top, #b184d1 5%, #7355ab 100%);
+	background:-ms-linear-gradient(top, #b184d1 5%, #7355ab 100%);
+	background:linear-gradient(to bottom, #b184d1 5%, #7355ab 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#b184d1', endColorstr='#7355ab',GradientType=0);
+	background-color:#b184d1;
+}*/
 
 
 /* 表单 */
@@ -295,7 +375,8 @@ select,
 .mod_screen_condition2,
 .mod_screen_condition2 .title,
 .mod_screen_condition2 .title .icon,
-.mod_screen_condition2 .condition{
+.mod_screen_condition2 .condition,
+.mod_product_selectlists .list .img_warp .img{
 	-webkit-transition:all .4s ease-out;
 	-moz-transition:all .4s ease-out;
 	-ms-transition:all .4s ease-out;
