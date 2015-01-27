@@ -89,7 +89,7 @@
             <div class="title">
                 <div class="bg">
                     <span class="icon"></span>
-                    <span class="txt">账号注册</span>
+                    <span class="txt">用户登陆</span>
                 </div>
             </div>
         </header>
@@ -97,27 +97,37 @@
         
         <!-- content [[ -->
         <div class="mod_login_signin">
-            <form action="">
+            <form action="#">
                 <dl class="login_signin_wrap">
-                    <dt>账号</dt>
+                    <dt>注册账号</dt>
                     <dd>
-                        <input class="name" id="" type="text" value="输入账号">
-                        <span class="hint">提示内容</span>
+                        <input class="name" id="" type="text" value="">
+                        <span class="hint none">首个为字母</span>
+                    </dd>
+                    <dt>邮箱</dt>
+                    <dd>
+                        <input class="email" id="" type="text" value="">
+                        <span class="hint">邮箱格式不正确</span>
                     </dd>
                     <dt>密码</dt>
                     <dd>
                         <input class="pwd" id="" type="password">
-                        <span class="hint">提示内容</span>
+                        <span class="hint">密码6-16位</span>
                     </dd>
-                    <dd class=""><input class="mod_btn btn" type="submit" value="登陆"></dd>
+                    <dt>确认密码</dt>
+                    <dd>
+                        <input class="pwd" id="" type="password">
+                        <span class="hint">密码6-16位</span>
+                    </dd>
+                    <dd class=""><input class="mod_btn btn" type="submit" value="立即注册"></dd>
                     <dd class="login_signin">
-                        <a href="#" class="link">找回密码</a>
-                        <a href="signin.html" class="link">注册</a>
+                        已经有账号，直接&nbsp;&nbsp;
+                        <a href="login.html" class="link">登陆</a>
                     </dd>
-                    
                 </dl>
             </form>
         </div>
+
         <!-- content ]] -->
         
         <!-- footer [[ -->

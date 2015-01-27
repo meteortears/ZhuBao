@@ -122,3 +122,25 @@
 	display: block;
 	color: #fff;
 }
+
+
+/* 积分 */
+.integral{
+	padding: 40px 20px;
+	margin: 0 auto -361px auto;
+	height: 100%;
+	overflow: hidden;
+}
+.integral .info{
+	/*position: relative;*/
+	/*padding: 0 10px;*/
+	margin: 10px 0;
+	font-size: 1.6em;
+	line-height: 1em;
+}
+.integral .info .title{
+	display: inline-block;
+	/*position: absolute;
+	display: block;
+	left: 0;*/
+}
