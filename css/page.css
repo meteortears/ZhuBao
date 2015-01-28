@@ -144,3 +144,24 @@
 	display: block;
 	left: 0;*/
 }
+
+/* 总计 */
+.aggregate{
+	padding: 20px 20px;
+	background: #f7f7f7;
+	border-bottom: 1px solid #a1a1a1;
+	
+	text-align: right;
+	font-size: 1.4em;
+}
+.aggregate .txt{
+	
+}
+.aggregate .price_sum{
+	font-size: 1.8em;
+	color: #971012;
+}
+
+.aggregate .respectively{
+	
+}

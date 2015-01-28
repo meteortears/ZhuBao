@@ -44,6 +44,7 @@ a:hover{text-decoration:none;cursor:pointer}
 .zoom{zoom:1}
 .hidden{visibility:hidden}
 .none{display:none}
+.ovf{overflow: hidden;}
 
 .clear{clear:both}
 .clearFix:after{clear:both;content:".";display:block;margin:0;padding:0;font-size:0;height:0;line-height:0;visibility:hidden}
