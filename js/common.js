@@ -3,7 +3,7 @@
 /**
  * @name     :collectWeb
  * @author   :Nice
- * @dependent:收藏本站
+ * @explain  :收藏本站
  */
 function addFavorite() {
 
@@ -25,8 +25,44 @@ function addFavorite() {
 }
 /* @end **/
 
+
+
+/**
+* @name     :popupHint
+* @date     :15.01.29
+* @author   :Nice
+* @explain  :弹出提示
+*/
+function popupHint(ID){
+
+}
+/* @end **/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+* @name     :
+* @date     :15.01.29
+* @author   :Nice
+* @explain  :
+*/
+
+/* @end **/
+
+
 /**
 * @name		:
+* @date     :15.01.29
 * @author	:Nice
 * @version	:
 * @type		:基类

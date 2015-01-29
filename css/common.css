@@ -37,7 +37,7 @@ a:hover{
 	height: 100%;
 	overflow: hidden;
 */
-	/*min-height: 480px;*/
+	min-height: 220px;
 	padding: 0 20px 0 20px;
 	margin: 0 auto -281px auto;
 	height: 100%;
@@ -178,69 +178,18 @@ a:hover{
 
 
 /* 筛选列表2 */
-.mod_screen_condition2{
-
-	border: 1px solid #cccccc;
-	-webkit-border-radius: 3px;
-	-moz-border-radius: 3px;
-	-ms-border-radius: 3px;
-	-o-border-radius: 3px;
-	border-radius: 3px;
-	color: #a1a1a1;
-	margin: 10px;
-	padding: 10px;
-	overflow: hidden;
-	display: block;
-}
-.mod_screen_condition2 .title{
-	font-size: 1.8em;
-	line-height: 1em;
-	color: #8f8f8f;
-}
-
-.mod_screen_condition2 .title .icon{
-	display: inline-block;
-	float: right;
-}
-
-.mod_screen_condition2 .condition{
-	display: block;
-	height: 0px;
-	margin: 0 0 0 2em;
-	padding: 0px 0 0 0;
-	font-size: 1.6em;
-}
-.mod_screen_condition2 .condition .link{
-	display: inline-block;
-	width: 32%;
-	padding: 10px 0;
-	color: #a1a1a1;
-}
-
-
+.mod_screen_condition2{ border: 1px solid #cccccc; -webkit-border-radius: 3px; -moz-border-radius: 3px; -ms-border-radius: 3px; -o-border-radius: 3px; border-radius: 3px; color: #a1a1a1; margin: 10px; padding: 10px; overflow: hidden; display: block; }
+.mod_screen_condition2 .title{ font-size: 1.8em; line-height: 1em; color: #8f8f8f; }
+.mod_screen_condition2 .title .icon{ display: inline-block; float: right; }
+.mod_screen_condition2 .condition{ display: block; height: 0px; margin: 0 0 0 2em; padding: 0px 0 0 0; font-size: 1.6em; }
+.mod_screen_condition2 .condition .link{ display: inline-block; width: 32%; padding: 10px 0; color: #a1a1a1; }
 .mod_screen_condition2:hover,
-.mod_screen_condition2:active{
-	border: 1px solid #7355ab;
-	outline: none;
-}
-.mod_screen_condition2:hover .title{
-	color: #7355ab;
-}
+.mod_screen_condition2:active{ border: 1px solid #7355ab; outline: none; }
+.mod_screen_condition2:hover .title{ color: #7355ab; }
 .mod_screen_condition2:hover .title .icon,
-.mod_screen_condition2:active .title .icon{
-	-webkit-transform: rotate(180deg);
-	-moz-transform: rotate(180deg);
-	-ms-transform: rotate(180deg);
-	-o-transform: rotate(180deg);
-	transform: rotate(180deg);
-}
+.mod_screen_condition2:active .title .icon{ -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); -ms-transform: rotate(180deg); -o-transform: rotate(180deg); transform: rotate(180deg); }
 .mod_screen_condition2:hover .condition,
-.mod_screen_condition2:active .condition{
-	/*height: 100%;*/
-	/*display: block;*/
-	padding: 4px 0 0 0;
-	height: 100px;
-}
+.mod_screen_condition2:active .condition{ padding: 4px 0 0 0; height: 100px; }
 
 /* 进度 */
 .mod_schedule{
@@ -413,6 +362,62 @@ a:hover{
 .mod_order .btn_wrap .mod_btn{ width: 45%; margin: 0 2%; float: left; padding: 14px 0; }
 
 
+
+
+/* 列表样式1 */
+.mod_liststyle_1 .list_wrap{ }
+.mod_liststyle_1 .list_wrap .list_title,
+.mod_liststyle_1 .list_wrap .list{ padding: 10px 20px; }
+.mod_liststyle_1 .list_wrap .list_title{ font-size: 1.8em; color: #7355ab; padding: 20px 20px; background: #f7f7f7; border-top:1px solid #a1a1a1; border-bottom:1px solid #a1a1a1; }
+
+
+/* 弹出层 */
+.mod_pophint_bg{
+	background: rgba(0,0,0,.8);
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin:auto;
+}
+.mod_pophint{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin:auto;
+	width: 80%;
+	height: 40%;
+
+	border-top:4px solid #8f8f8f;
+
+	border-top:4px solid #7355ab;
+
+	background: rgba(255,255,255,.8);
+	box-shadow: 0 0px 4px 0px rgba(0,0,0,.4);
+}
+
+.mod_pophint .title{
+	padding: 10px 20px;
+	
+	border-top:1px solid #7355ab;
+
+	font-size: 2em;
+	color: #000;
+}
+.mod_pophint .hint_txt{
+	
+}
+.mod_pophint .btn_wrap{
+	
+}
+
+.mod_pophint .btn_wrap .btn{
+	
+}
+
 /* web组件 */
 
 
@@ -438,9 +443,7 @@ a:hover{
 
 /* 单选 */
 .mod_radio{
-	/*padding: 20px 0;*/
-	/*margin: 20px 0;*/
-	/*overflow: hidden;*/
+
 }
 .mod_radio .radio_wrap{
 	padding: 10px 5%;
@@ -448,7 +451,6 @@ a:hover{
 .mod_radio .radio_wrap .radio_label{
 	display: block;
 	padding: 10px 0;
-	/*margin: */
 	font-size: 1.6em;
 	line-height: 1.8em;
 }
@@ -476,89 +478,15 @@ select:focus{ border: 1px solid #7355ab; outline: none; }
 
 
 /* 文字 嵌入式 */
-.mediate_box{
-	/*display: table;*/
-	/*position: relative;*/
-}
-.mediate_wrap{
-	
-	/*position: absolute;*/
-	/*top: 50%;*/
-	/*display: table-cell;*/
-	/*vertical-align: middle;*/
-	/*width: 100%;*/
-}
-
-.hint_txt_implant{
-	/*position: relative;*/
-	/*margin-top:-50%; */
-	/*padding-top:-50%; */
-	/*display: table-cell;*/
-	/*vertical-align: middle;*/
-	/*display: block;*/
-
-/*	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;*/
-	/*margin: auto;*/
-	/*display: block;*/
-	/*vertical-align: middle;*/
-	display: block;
-	padding: 40px 0;
-	font-size: 2em;
-	font-weight: bold;
-	line-height: 2em;
-	color: #a1a1a1;
-	text-align: center;
-	/*text-shadow:0 -1px 0 #fff;*/
-	text-shadow:0px 1px 0px #ffffff;	
-
-}
-.hint_txt_implant .icon{
-	display: inline-block;
-	margin: 0 10px 0 0;
-	font-size: 1.2em;
-	/*font-weight: bold;*/
-	line-height: 1em;
-	color: #a1a1a1;
-	text-align: center;
-	/*text-shadow:0 -1px 0 #fff;*/
-	/*background: #f5f5f5;*/
-	/*color:#666666;*/
-	text-shadow:0px 1px 0px #ffffff;	
-}
+.hint_txt_implant{ display: block; padding: 40px 0; font-size: 2em; font-weight: bold; line-height: 2em; color: #a1a1a1; text-align: center; text-shadow:0px 1px 0px #ffffff; }
+.hint_txt_implant .icon{ display: inline-block; margin: 0 10px 0 0; font-size: 1.2em; line-height: 1em; color: #a1a1a1; text-align: center; text-shadow:0px 1px 0px #ffffff; }
 
 
 
 
 
 
-/* css3动画 */
-.nav .ul .list,
-.nav .ul .list .link .icon,
-.nav .ul .list .nav_sub .sub_link,
-.nav_bottom .link,
-.mod_product .list .link .sign,
-.mod_btn,
-select,
-.mod_product2 .list .img_warp .img,
-.mod_screen_condition2,
-.mod_screen_condition2 .title,
-.mod_screen_condition2 .title .icon,
-.mod_screen_condition2 .condition,
-.mod_product_selectlists .list .img_warp .img,
-.mod_login_signin input,
-.mod_shop .item_list .item_amount a,
-.mod_shop .item_list .item_amount input,
-.mod_form input,
-.mod_form textarea{
-	-webkit-transition:all .4s ease-out;
-	-moz-transition:all .4s ease-out;
-	-ms-transition:all .4s ease-out;
-	-o-transition:all .4s ease-out;
-	transition:all .4s ease-out;
-}
+
 
 
 

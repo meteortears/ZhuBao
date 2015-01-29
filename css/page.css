@@ -165,3 +165,142 @@
 .aggregate .respectively{
 	
 }
+
+
+/* 个人中心 */
+.uesr{
+	padding: 0;
+}
+
+.uesr .list_title{
+}
+.uesr .list_title .btn{
+	float: right;
+	color: #a1a1a1;
+	font-size: 0.8em;
+}
+
+.uesr .ures_info{
+	border-bottom: 1px solid #a1a1a1;
+	/*background: #f7f7f7;*/
+}
+.uesr .ures_info .list{
+	font-size: 1.6em;
+}
+
+.uesr .ures_info .btn_recharge{
+	padding: 6px;
+	font-size: 0.8em;
+	margin: 0 10px;
+	/*text-shadow:none;*/
+}
+
+
+
+.uesr .nav_user{
+	/*border-bottom: 1px solid #a1a1a1;*/
+}
+.uesr .nav_user .list{
+	position: relative;
+	padding-left:50px;
+	border-top: 1px dashed #a1a1a1;
+
+	font-size: 1.6em;
+	line-height: 1em;
+}
+.uesr .nav_user .list:first-child{
+	border-top:none;
+}
+.uesr .nav_user .list .link{
+	color: #a1a1a1;
+	display: block;
+	padding: 10px 0;
+}
+.uesr .nav_user .list .icon{
+	position: absolute;
+	left: 20px;
+	display: block;
+}
+
+.uesr .nav_user .list:hover{
+	background: #7355ab;
+	color: #fff;
+}
+
+.uesr .nav_user .list .link:hover{
+	color: #fff;
+	
+
+}
+
+
+
+
+
+/* css3动画 */
+.nav .ul .list,
+.nav .ul .list .link .icon,
+.nav .ul .list .nav_sub .sub_link,
+.nav_bottom .link,
+.mod_product .list .link .sign,
+.mod_btn,
+select,
+.mod_product2 .list .img_warp .img,
+.mod_screen_condition2,
+.mod_screen_condition2 .title,
+.mod_screen_condition2 .title .icon,
+.mod_screen_condition2 .condition,
+.mod_product_selectlists .list .img_warp .img,
+.mod_login_signin input,
+.mod_shop .item_list .item_amount a,
+.mod_shop .item_list .item_amount input,
+.mod_form input,
+.mod_form textarea,
+.uesr .nav_user .list .link,
+.uesr .nav_user .list{
+	-webkit-transition:all .4s ease-out;
+	-moz-transition:all .4s ease-out;
+	-ms-transition:all .4s ease-out;
+	-o-transition:all .4s ease-out;
+	transition:all .4s ease-out;
+}
+
+
+
+
+/*
+
+	全局
+	
+	  	  主色 7355ab
+	 	  辅色 
+    	高亮色 b184d1
+    	阴影色 694da7
+    	点睛色 e89d32 971012
+    	背景色 fff
+
+    	  灰色 a1a1a1
+    	深灰色 8f8f8f
+    	浅灰色 cccccc
+      更灰浅色 f5f5f5
+
+	  字体颜色 
+
+	主标题颜色 7355ab
+	副标题颜色 
+	  正文颜色 a1a1a1
+	
+	  过渡颜色
+
+	主标题大小 
+	副标题大小 18px
+	  正文大小 14px
+
+	主标题行高 
+	副标题行高 
+	  正文行高 
+
+		  边距
+		内填充
+
+*/

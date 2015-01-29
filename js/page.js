@@ -1,5 +1,47 @@
 // JavaScript Document
 
+/**
+* @name     :numPlusMinus
+* @date     :15.01.29
+* @author   :Nice
+* @explain  :购物车数字加减
+*/
+function numPlusMinus(ID){
+	var e=$('#'+ID);
+	var plus=e.find('.icon_plus');
+	var minus=e.find('.icon_minus');
+
+	function pm(parameter){
+		if (parameter=="+") {
+			console.log('+++');
+		};
+
+		if (parameter=="-") {
+			console.log("---");
+		};
+	}
+
+	plus.click(function() {
+		pm('+');
+	});
+
+	minus.click(function() {
+		minus('-')
+	});
+
+}
+/* @end **/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
